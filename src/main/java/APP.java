@@ -20,8 +20,8 @@ public class APP {
         final boolean LegalToDrive = AgeInt >= legalDriveAge;
         final String YesLegalDrive = "You are old enough to legally drive.";
         final String IllegalDrive = "You are not old enough to legally drive.";
-        String messageToPrint = (LegalToDrive) ? YesLegalDrive : IllegalDrive;
-        System.out.println(messageToPrint);
+        String OutPutString = (LegalToDrive) ? YesLegalDrive : IllegalDrive;
+        System.out.println(OutPutString);
 
 
 
